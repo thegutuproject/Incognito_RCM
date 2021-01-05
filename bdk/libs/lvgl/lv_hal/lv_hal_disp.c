@@ -225,7 +225,7 @@ bool lv_disp_is_mem_blend_supported(void)
 
 /**
  * Shows if memory fill (by GPU) is supported or not
- * @return false: 'mem_fill' is not supported in the driver; true: 'mem_fill' is supported in the driver
+ * @return false: 'mem_fill' is not supported in the drover; true: 'mem_fill' is supported in the driver
  */
 bool lv_disp_is_mem_fill_supported(void)
 {

@@ -19,6 +19,7 @@
 
 #include <utils/types.h>
 
+#define AES_128_KEY_SIZE 16
 
 //testing
 void screenshot(const char* suffix);
