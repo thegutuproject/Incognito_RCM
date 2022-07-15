@@ -140,7 +140,7 @@ u16 readCrc(u32 offset, u8 *blob)
         readData((u8 *)&buffer, offset, sizeof(u16), NULL);
     else
         memcpy((u8 *)&buffer, blob + offset, sizeof(u16));
-    
+
     return buffer;
 }
 
@@ -916,7 +916,7 @@ void print_progress(u32 count, u32 max)
 
 bool isSysNAND()
 {
-    return (!emu_c+fg.enabled || h_cfg.emummc_force_disable);
+    return (!emu_cfg.enabled || h_cfg.emummc_force_disable);
 }
 
 bool checkBackupExists()
