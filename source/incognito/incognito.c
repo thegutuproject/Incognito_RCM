@@ -916,7 +916,7 @@ void print_progress(u32 count, u32 max)
 
 bool isSysNAND()
 {
-    return (!emu_cfg.enabled || h_cfg.emummc_force_disable);
+    return (!emu_c+fg.enabled || h_cfg.emummc_force_disable);
 }
 
 bool checkBackupExists()
